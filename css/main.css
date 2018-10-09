@@ -5,12 +5,15 @@
 
 header {
   font-size: 1.5rem;
+
 }
 
   footer {
     font-size: 1.5rem;
   }
-
+  nav a:not(.no-highlight){
+    background-color: #719e47;
+  }
   ul {
     font-family: sans-serif;
   }
@@ -19,15 +22,16 @@ header {
     text-transform: uppercase;
 
   }
-
-  .wrapper {
-    background-color: #eee8d5;
+  h2  {
+    color: #93a1a1;
   }
-#Contents{
-  color: #93a1a1;
-}
-#favs {
-  color: #93a1a1;
+
+#facts + .dfn  {
+    background-color: #b58900;
+  }
+
+#Contents  {
+  color: #fff;
 }
 
 #facts {
@@ -37,26 +41,27 @@ header {
 p + strong {
   background-color: #719e07;
 }
-[rel="external"] {
+[rel="external"]{
   background-color: #2694d8;
+  }
 
   ol li:first-child{
     color:719e47;
   }
-  ol li:last-child [
+  ol li:last-child {
     color: #2aa198:
-  ]
-
-.types li:nth-child(odd)
-  background-color: #657ba3;
-
-  .types li:nth-child(even) {
-    background-color: #586e75;
   }
 
-.types: li:nth-child(3n) {
-  background-color: #d0416;
+
+
+.types li:nth-child(1n) {
+  background-color: #657ba3;
 }
 
+.types li:nth-child(2n) {
+  background-color: #eee8d5;
+}
 
-  backgroun-color: {}
+.types li:nth-child(3n) {
+  background-color: #d04b16;
+}
