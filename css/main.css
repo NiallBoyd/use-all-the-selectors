@@ -1,65 +1,69 @@
-  html {
-    background-color: #fdf6e3;
-
+html {
+  background-color: #fdf6e3;
 }
 
 header {
   font-size: 1.5rem;
-
 }
 
-  footer {
-    font-size: 1.5rem;
-  }
-  nav a:not(.no-highlight){
-    background-color: #719e47;
-  }
-  ul {
-    font-family: sans-serif;
-  }
-
-  .logo {
-    text-transform: uppercase;
-
-  }
-  h2  {
-    color: #93a1a1;
-  }
-
-#facts + .dfn  {
-    background-color: #b58900;
-  }
-
-#Contents  {
-  color: #fff;
+main {
+  background-color: #eee8d5;
 }
 
-#facts {
+footer {
+  font-size: 1.5rem;
+}
+
+ul {
+  font-family: sans-serif;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+h2 {
   color: #93a1a1;
 }
 
-p + strong {
+#facts {
+  background-color: #b58900;
+}
+
+#Contents {
+  color: #fff;
+}
+
+#favs {
+  color: #93a1a1;
+}
+
+p + strong .dfn {
+  color: #fff;
+}
+
+a {
   background-color: #719e07;
 }
-[rel="external"]{
+
+[rel="external"] {
   background-color: #2694d8;
-  }
+}
 
-  ol li:first-child{
-    color:719e47;
-  }
-  ol li:last-child {
-    color: #2aa198:
-  }
+ol > li:first-child {
+  color: #719e47;
+}
 
-
+ol > li:last-child {
+  color: #2aa198;
+}
 
 .types li:nth-child(1n) {
   background-color: #657ba3;
 }
 
 .types li:nth-child(2n) {
-  background-color: #eee8d5;
+  background-color: #586e75;
 }
 
 .types li:nth-child(3n) {
